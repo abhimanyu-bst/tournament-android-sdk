@@ -1,5 +1,5 @@
 Tournament SDK for Android
-============================
+==========================
 Tournament SDK enables your users to track and compare their game scores on a leaderboard within their social network.
 
 Installation
@@ -9,7 +9,7 @@ Installation
    Add `sdk` to the `dependencies` section in your `build.gradle`:
 
    ```gradle
-   compile 'com.gamepop.tournament.sdk.android:sdk:1.1.2'
+   compile 'com.gamepop.tournament.sdk.android:sdk:1.1.3'
    ```
    Note: Requires Android API 9.
 
