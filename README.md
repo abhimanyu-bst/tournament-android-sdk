@@ -60,7 +60,7 @@ Initializing Tournament SDK
     import com.gamepop.tournament.sdk.android.TSDK;
     ```
 
--   In your application's `onCreate` function, initialize Tournament SDK:
+-   In your application's (i.e. class derived from  android.app.Application) `onCreate` function, initialize Tournament SDK:
 
     ```java
     TSDK.init(this);
