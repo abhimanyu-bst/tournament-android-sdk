@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bluestacks.myapplication" >
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- TSDK:BEGIN: SANDBOX GAME_KEY -->
+        <meta-data android:name="com.gamepop.tournament.sdk.GAME_KEY" android:value="sandbox:1506d13b6cb458415dd2aef47a7f4b7d22b90689"/>
+        <!-- TSDK:END: SANDBOX GAME_KEY -->
+
+        <!-- TSDK:BEGIN: LIVE GAME_KEY -->
+        <!-- <meta-data android:name="com.gamepop.tournament.sdk.GAME_KEY" android:value="live:15fd19ab81ac5a45374e6b3d55ad540417c1ede7"/> -->
+        <!-- TSDK:END: LIVE GAME_KEY -->
+    </application>
+
+</manifest>
