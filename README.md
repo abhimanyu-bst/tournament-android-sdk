@@ -9,7 +9,7 @@ Installation
    Add `sdk` to the `dependencies` section in your `build.gradle`:
 
    ```gradle
-   compile 'com.gamepop.tournament.sdk.android:sdk:2.0.0'
+   compile 'com.gamepop.tournament.sdk.android:sdk:2.0.1'
    ```
    Note: Requires Android API 9.
 
