@@ -1,0 +1,21 @@
+# IntelliJ IDEA
+.idea
+*.iml
+
+# Gradle
+.gradle
+gradlew.bat
+build
+local.properties
+
+# vim swap files
+*.swp
+
+# release.sh generated directories
+/release_out_*
+
+# Mac OS
+.DS_Store
+
+# Windows files
+Thumbs.db
